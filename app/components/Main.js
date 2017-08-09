@@ -16,19 +16,18 @@ var Main = React.createClass({
           {/* Navbar */}
           <nav className="navbar navbar-default" style={{backgroundColor: "#e00505"}} role="navigation">
             <div className="container-fluid">
-              <div className="navbar-header">   
+              <div className="navbar-header">
                 <button
                   type="button"
                   className="navbar-toggle"
                   data-toggle="collapse"
-                  data-target=".navbar-ex1-collapse"
-                >
+                  data-target=".navbar-ex1-collapse">
                   <span className="sr-only">Toggle navigation</span>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                 </button>
-                <Link className="navbar-brand" to="/"><img style={{width: "208"}} src="img/The_New_York_Times_logo.png"></img></Link>
+                <Link className="navbar-brand" to="/"><img style={{width: "208px"}} src="img/The_New_York_Times_logo.png"></img></Link>
               </div>
 
               <div className="collapse navbar-collapse navbar-ex1-collapse">
